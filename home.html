@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+	<content>
+		<h1>Hello World</h1>
+		<!-- insert hello world here -->
+		<div id="home">
+			<img id="cat-picture" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2020%2F06%2F26%2Fgrumy-looking-gray-cat-1186803937-2000.jpg">
+			<div id="intro">
+				<p>Welcome! This is a safe space for all who find Marissa to be cool and hilarious.</p>
+				<ul>
+					<li>Wow! You look great today!</li>
+					<li>You're doing a wonderful job!</li>
+					<li>Your laugh is infectious!</li>
+				</ul>
+			</div>
+		</div>
+
+		<h2>Contact Us</h2>
+		<form id="contact">
+			<input class="contact" type="text" placeholder="Your Name">
+			<input id="contact-message" class="contact" type="textarea" placeholder="Message">
+
+			<fieldset>
+				<legend>
+					How did you hear about us?
+				</legend>
+				<div>
+					<input type="checkbox" name="check-google">
+					<label for="check-google">Google</label>
+				</div>
+				<div>
+					<input type="checkbox" name="check-friend"> 
+					<label for="check-friend">A friend</label>
+				</div>
+				<div>
+					<input type="checkbox" id="check-other" name="check-other">
+					<label for="check-other">Other</label>
+				</div>
+				<input type="submit" value ="Submit">
+			</fieldset>
+
+
+
+		</form>
+
+	</content>
+
+
+	<script src="about.js"></script>
+
+</body>
+</html>

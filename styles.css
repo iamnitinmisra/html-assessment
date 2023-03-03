@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(26, 56, 80);
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid rgb(242, 157, 65);
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: rgb(242, 157, 65);
+}
+
+a:visited {
+	color: rgb(173, 69, 35);
+}
+
+
+.contact {
+	display: block;
+	margin-bottom: 5px;
+}
+
+#contact-message {
+	margin-bottom: 15px;
+}
+
+img {
+	max-width: 300px;
+	margin-right: 10px;
+}
+
+#home{
+	display: flex;
+	/* flex-direction: row; */
+}
+/* .home img{
+	margin:left;
+}
+
+.home.intro {
+margin:right;
+} */
